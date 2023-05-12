@@ -198,38 +198,143 @@ padding-bottom: 180px;
    gap: 24px;
 }
 
+.products-item {
+   padding: 30px;
+   background: #211A16;
+   border: 1px solid #353535;
+   border-radius: 16px;
+}
+
 .products-item-image {
-   
+   height: 250px;
+}
+
+.products-item-image img {
+   max-width: 100%;
 }
 
 .products-item-title {
-   
+   font-size: 24px;
+   line-height: 29px;
+   padding: 24px 0;
 }
 
 .products-item-text {
-   
+   font-size: 16px;
+   line-height: 140%;
+   margin-bottom: 24px;
 }
 
 .products-item-extra {
-   
-}
-
-.products-item-info{
-   
+   display: flex;
+   justify-content: space-between;
 }
 
 .products-item-price {
-   
+   font-size: 32px;
+   line-height: 39px;
+   margin-bottom: 8px;
 }
 
 .products-item-weight {
-   
+   font-size: 16px;
+   line-height: 18px;
+   color: #757575;
 }
 
-.products-item-action {
-   
+.button.products-button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 182px;
+   height: 62px;
 }
 
-.products-button {
-   
+button.products-button:first-child {
+   margin-right: 10px;
+}
+
+.order {
+   background-image: url("../images/order_bg.png");
+   background-position: top center;
+   background-repeat: no-repeat;
+padding-bottom: 180px;
+overflow: hidden;
+}
+.order .container {
+   position: relative;
+}
+
+.order-image {
+   position: absolute;
+   top: 0;
+   right: calc(100%-764px);
+   z-index: -1;
+}
+
+.order-form {
+   background: #211A16;
+   border: 1px solid #353535;
+   border-radius: 16px;
+   margin-top: 60px;
+   min-width: 426px;
+   box-sizing: border-box;
+   padding: 60px 40px;
+   margin-left: 674px;
+}
+
+.order-form-text {
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+}
+
+.order-form-inputs {
+   display: flex;
+   flex-direction: column;
+   margin-top: 40px;
+}
+
+.order-form-input {
+   background: linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
+   width: 344px;
+   height: 62px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.order-form-input input{
+padding: 20px 10px;
+background-color: #211A16;
+width: 342px;
+height: 60px;
+border-radius: 8px;
+box-sizing: border-box;
+outline: none;
+border: 1px solid transparent;
+color: white;
+}
+
+.order-form-inputs .button {
+   width: 344px;
+   height: 62px;
+}
+
+.footer {
+   padding: 60px 0;
+}
+
+.footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+.rights {
+   font-size: 16px;
+   line-height: 20px;
 }
