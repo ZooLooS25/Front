@@ -46,6 +46,15 @@ body {
    background: linear-gradient(95.61deg, #ac6115 0%, #9e7a19 100%);
 }
 
+.common-title {
+   font-family: 'Merriweather';
+   font-size: 64px;
+   line-height: 80px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;   
+}
+
 .main {
    overflow: hidden;
    background-image: url("../images/main_bg.png");
@@ -143,4 +152,84 @@ vertical-align: bottom;
 position: absolute;
 top: -123px;
 left: calc(100% - 991px);
+}
+
+.why {
+   background-image: url("../images/whybg.png");
+   background-position: top center;
+   background-size: initial;
+   padding-bottom: 180px;
+}
+
+.why-items {
+   margin-top: 60px;
+   display: grid;
+   grid-template-columns: repeat(3, 312px);
+   gap: 100px;
+   justify-content: center;
+}
+
+.why-item {
+   text-align: center;
+}
+
+.why-item-title {
+   font-size: 24px;
+   line-height: 29px;
+   padding: 24px 0;
+}
+
+.why-item-text {
+   font-size: 16px;
+   line-height: 140%;
+}
+
+.products {
+background-image: url("../images/burgers_bg.png");
+background-position: top center;
+background-size: 1400PX;
+padding-bottom: 180px;
+}
+
+.products-items {
+   margin-top: 60px;
+   display: grid;
+   grid-template-columns: repeat(3, 384px);
+   gap: 24px;
+}
+
+.products-item-image {
+   
+}
+
+.products-item-title {
+   
+}
+
+.products-item-text {
+   
+}
+
+.products-item-extra {
+   
+}
+
+.products-item-info{
+   
+}
+
+.products-item-price {
+   
+}
+
+.products-item-weight {
+   
+}
+
+.products-item-action {
+   
+}
+
+.products-button {
+   
 }
